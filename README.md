@@ -1,0 +1,2 @@
+# TSDM
+Tækniskóli Deathmatch
