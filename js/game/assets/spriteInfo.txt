@@ -1,0 +1,14 @@
+Spirte info
+
+professor_walk_cycle.png
+
+	width: 576
+	height: 256
+
+	number of tiles X: 9
+	number of tiles y: 4
+
+	tileheight: 64
+	tilewidth: 64
+
+------------------------

@@ -9,19 +9,19 @@ define([
 		var canvas = document.getElementById('canvas');
 		var ctx = canvas.getContext('2d');
 
-		// canvas height/width properties changed on resize
-        function updatecanvas(){
+		// Resize canvas and stuff
+        function reconfigureCanvas(){
             canvas.height = canvas.offsetHeight;
             canvas.width = canvas.offsetWidth;
         }
         window.onresize = function(){
-        	updatecanvas();
+        	reconfigureCanvas();
         };
-        updatecanvas();
+        reconfigureCanvas();
 
         // Test text plz ignore or remove
 		ctx.font = "40px Tahoma";
-		ctx.fillText("Tækniskóli Deathmatch", 100, 100);
+		ctx.fillText("Test", 100, 100);
 
 	};
 
