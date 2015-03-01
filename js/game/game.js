@@ -10,10 +10,19 @@ define([
 		var ctx = canvas.getContext('2d');
 
 		// canvas height/width properties changed on resize
-        window.onresize = function(){
+        function updatecanvas(){
             canvas.height = canvas.offsetHeight;
             canvas.width = canvas.offsetWidth;
+        }
+        window.onresize = function(){
+        	updatecanvas();
         };
+        updatecanvas();
+
+        // Test text plz ignore or remove
+		ctx.font = "40px Tahoma";
+		ctx.fillText("Tækniskóli Deathmatch", 100, 100);
+
 	};
 
 	return {

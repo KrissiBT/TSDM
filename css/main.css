@@ -95,7 +95,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#canvas{
+    width: 100vw;
+    height: 100vh;
 
+    background-color: #E1514C;
+}
 
 
 
